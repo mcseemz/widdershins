@@ -76,7 +76,7 @@ Status Code **{{=response.status}}**
 {{ data.responseHeaders = data.utils.getResponseHeaders(data); }}
 {{? data.responseHeaders.length }}
 
-### Response Headers
+<h3>Response Headers</h3>
 
 |Status|Header|Type|Format|Description|
 |---|---|---|---|---|

@@ -29,13 +29,13 @@ Base URLs:
 {{#def.security}}
 {{?}}
 
+<h1>Resources</h1>
 {{ for (var r in data.resources) { }}
 {{ data.resource = data.resources[r]; }}
 
 {{= data.tags.section }}
-<h1 id="{{=data.title_prefix+'-'+data.utils.slugify(r)}}">{{= r}}</h1>
-# {{= r}}
 
+## {{= r}}
 
 {{? data.resource.description }}{{= data.resource.description}}{{?}}
 
