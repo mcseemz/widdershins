@@ -34,6 +34,8 @@ Base URLs:
 
 {{= data.tags.section }}
 <h1 id="{{=data.title_prefix+'-'+data.utils.slugify(r)}}">{{= r}}</h1>
+# {{= r}}
+
 
 {{? data.resource.description }}{{= data.resource.description}}{{?}}
 
