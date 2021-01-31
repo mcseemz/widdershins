@@ -30,7 +30,7 @@
 {{~}}
 
 {{? data.enums && data.enums.length }}
-#### Enumerated Values
+<h4>Enumerated Values</h4>
 
 |Parameter|Value|
 |---|---|
